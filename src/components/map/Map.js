@@ -13,7 +13,7 @@ const center = {
 
 function Map({ isMarkerShown, fullWidth }) {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "YOUR_API_KEY" // Replace with your actual API key
+    googleMapsApiKey: "AIzaSyAHYS1xy5PN74Qtp7BDWC_ci5WWulkXFhs" // Replace with your actual API key
   });
 
   const mapRef = React.useRef(null);
