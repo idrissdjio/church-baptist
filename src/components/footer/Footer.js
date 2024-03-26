@@ -13,18 +13,28 @@ const Footer = (props) => {
         </div>
         <div className="row">
           <div className="col-sm">
-            <p>Saintfield Baptist Church<br/>51 Crossgar Road, Saintfield<br/>2021 &copy; Saintfield Baptist Church</p>
+            <p>East Side Baptist Church<br/>2409 E Park Place, Milwaukee, WI 53211<br/>2024 &copy; East Side Baptist Church</p>
           </div>
           <div className="col-sm">
             <p className="footer-social-title">STAY CONNECTED</p>
+            {/* <div className="footer-social-links">
+              <a href="https://www.facebook.com/eastside.baptist.7/"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/eastside.baptist.7/"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.youtube.com/@EASTSIDEBAPTISTCHURCHMILWAUKEE"><i className="fab fa-youtube"></i></a>
+            </div> */}
             <div className="footer-social-links">
-              <a href="https://www.facebook.com/Saintfield-Baptist-Church-105178506183089/"><i className="fab fa-facebook-f"></i></a>
-              <a href="https://twitter.com/SaintfieldBC"><i className="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/eastside.baptist.7/">
+                <i className="fab fa-facebook-f" style={{ fontSize: '24px' }}></i>
+              </a>
+              <a href="https://www.youtube.com/@EASTSIDEBAPTISTCHURCHMILWAUKEE">
+                <i className="fab fa-youtube" style={{ fontSize: '24px' }}></i>
+              </a>
             </div>
           </div>
-          <div className="col-sm d-none d-sm-none d-md-none d-lg-block">
-            <img alt="footer-logo" srcSet="img/logo_footer@2x.png 2x" className="footer-logo float-right" src="img/logo_footer.png"/>
+          <div className="col-sm d-none d-lg-block">
+            <img alt="footer-logo" src="img/ESBC-Long.png" srcSet="img/ESBC-Long.png" className="navbar-brand mx-auto" style={{ maxWidth: '100%', height: 'auto' }}/>
           </div>
+
         </div>
       </div>
     )

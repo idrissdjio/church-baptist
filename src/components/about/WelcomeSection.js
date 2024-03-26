@@ -1,33 +1,15 @@
 import React from 'react';
+import './WelcomeSection.css'; // Ensure this CSS file is imported for styling
 
 const WelcomeSection = (props) => {
   return (
-    <div>
-      <h2>WELCOME</h2>
-      <p>
-        Saintfield Baptist Church is a relatively young church. We recently celebrated our 30th anniversary.
-        <br/>
-        Our desire is to exalt the Name of our Saviour the Lord Jesus Christ.
-      </p>
-      <p>
-        &quot;And He is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all
-        things He might have the pre-eminence.&quot; <span className="page-bible-reference">Colossians. 1:18</span>
-      </p>
-      <p>
-        We desire to see Christian’s grow; whilst for non-Christians, we desire for them to come to personal saving knowlege
-        of the Lord Jesus Christ. Thus main focus in our meetings is the preaching of God’s Word.
-      </p>
-      <p>
-        &quot;Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and
-        doctrine.&quot; <span className="page-bible-reference">2 Timothy 4:2</span>
-      </p>
-      <p>
-        Crèche facilities and Children’s church operate during our Sunday morning meeting.
-        If you are visiting in the area or seeking a place to worship we heartily invite you to come along and enjoy the
-        fellowship of God’s people. We assure you of a warm welcome at all times.
+    <div className="welcome-section">
+      <h2 className="welcome-title">Welcome to East Side Baptist Church</h2>
+      <p className="welcome-text">
+        East Side Baptist Church embarked on its journey when Pastor Methum, guided by a strong calling after his tenure at Grandview Park Baptist Church in Des Moines, Iowa, decided to establish a church in a major urban setting. Graduating with a B.A. in Pastoral Theology from Faith Baptist Bible College, Pastor Methum, along with his wife Traecey and their four children, Jacob, Jerub, Racheleah, and Rebekah, relocated to Milwaukee, Wisconsin, heeding God's direction. The Methum family initially made their home in Milwaukee, living in a modest two-bedroom apartment and initiating church services in a storefront at 2525 W. National Avenue, marking the nascent stage of the church's presence in the city.
       </p>
     </div>
-  )
+  );
 }
 
 export default WelcomeSection;

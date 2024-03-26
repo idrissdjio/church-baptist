@@ -6,6 +6,12 @@
   padding-bottom: 20px !important;
 }
 
+.sbc-navbar .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
 @media(min-width: 992px) {
   .sbc-navbar{
     padding-left: 100px !important;
@@ -47,10 +53,19 @@
   border-bottom: 1px solid #ff5a34;
 }
 
-.nav-link {
+/* .nav-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
+} */
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px; /* Adjust the size as needed */
+  font-weight: 900; /* Increase the weight for bolder text */
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 
 .login-btn {
   font-family: 'Raleway', sans-serif;

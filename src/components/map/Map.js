@@ -7,8 +7,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 54.454871,
-  lng: -5.8265
+  lat: 43.053710,
+  lng: -87.898120
 };
 
 function Map({ isMarkerShown, fullWidth }) {
@@ -38,7 +38,7 @@ function Map({ isMarkerShown, fullWidth }) {
           onUnmount={onUnmount}
         >
           {isMarkerShown && (
-            <Marker position={center} title="Saintfield Baptist Church" />
+            <Marker position={center} title="East Side Baptist Church" />
           )}
         </GoogleMap>
       ) : (

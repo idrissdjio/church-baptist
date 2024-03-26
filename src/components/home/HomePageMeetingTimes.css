@@ -12,7 +12,7 @@
 .home-page-meeting-times h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color:#ff5a34;
+  color:#0C2D57;
 }
 
 .home-page-meeting-times h3 {
@@ -20,16 +20,16 @@
 }
 
 .what-to-expect-button {
-  color:#ff5a34;
+  color:#0C2D57;
   margin: 0 auto;
-  border-color: #ff5a34;
+  border-color: #0C2D57;
   margin-bottom: 30px;
   box-shadow: none;
 }
 
 .what-to-expect-button:hover {
-  background-color: #ff5a34 !important;
-  border-color: #ff5a34 !important;
+  background-color: #0C2D57 !important;
+  border-color: #0C2D57 !important;
   color:white;
 }
 
