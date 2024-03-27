@@ -1,30 +1,3 @@
-// import React from 'react';
-// import Page from '../page/Page';
-// import Map from '../map/Map';
-// import './ContactPage.css'
-
-
-// const ContactPage = (props) => {
-//   return (
-//     <Page>
-//       <Map fullWidth={true}/>
-//       <div className="contact-page">
-//         <br/>
-//         <p>
-//           East Side Baptist Church<br/>
-//           2409 E Park Place<br/>
-//           Milwaukee, WI 53211<br/>
-//           + 1 (414) 364-3779 <br/>
-//         </p>
-//         <br/>
-//         {/* <a href="mailto:secretary@saintfieldbaptist.org.uk"><i className="far fa-envelope"></i> Email Us</a> */}
-//       </div>
-//     </Page>
-//   )
-// }
-
-// export default ContactPage;
-
 import React, { useState } from 'react';
 import Page from '../page/Page';
 import Map from '../map/Map';
@@ -46,13 +19,7 @@ const ContactPage = (props) => {
       <Map fullWidth={true}/>
       <div className="contact-page">
         <br/>
-        {/* <p>
-          East Side Baptist Church<br/>
-          2409 E Park Place<br/>
-          Milwaukee, WI 53211<br/>
-          + 1 (414) 364-3779<br/>
-        </p> */}
-        <br/>
+        <a href="tel:+14143643779" className="call-pastor-btn">Call the Pastor</a>
         <form onSubmit={handleSubmit} className="contact-form">
           <h2 style={{ color: '#0C2D57' }}>Contact Us</h2>
           <div className="form-group">

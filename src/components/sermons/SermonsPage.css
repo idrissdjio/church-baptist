@@ -8,3 +8,50 @@
     padding: 50px 100px;
   }
 }
+.sermons-page {
+  font-family: 'Raleway', sans-serif;
+}
+
+.audio-widgets iframe {
+  background-color: #0C2D57; /* Change the color of the audio display */
+}
+
+.sermons-form {
+  max-width: 600px;
+  margin: auto;
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sermons-form .form-group {
+  margin-bottom: 15px;
+}
+
+.sermons-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sermons-form .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sermons-form button {
+  background-color: #0C2D57;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+.sermons-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 100px; /* Or any appropriate height */
+}

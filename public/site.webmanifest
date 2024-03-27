@@ -1,20 +1,20 @@
 {
-    "name": "SBC",
-    "short_name": "SBC",
+    "name": "ESBC",
+    "short_name": "ESBC",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/ESBC-Long.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-384x384.png",
+            "src": "/ESBC-Long.png",
             "sizes": "384x384",
             "type": "image/png"
         }
     ],
     "theme_color": "#ff5a34",
     "background_color": "#ff5a34",
-    "start_url": "https://saintfieldbaptist.org.uk",
+    "start_url": "eastsidebaptistchurchmilwaukee.org",
     "display": "standalone"
 }

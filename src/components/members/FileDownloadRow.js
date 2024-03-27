@@ -4,7 +4,7 @@ import './FileDownloadRow.css'
 const FileDownloadRow = ({file}) => {
 
   const downloadFile = () => {
-    window.open(`https://api.saintfieldbaptist.org.uk/api/v1/members/files/${file}`)
+    window.open(`https://api.eastsidedbaptist.org/api/v1/members/files/${file}`)
   }
 
   const fileName = () => {

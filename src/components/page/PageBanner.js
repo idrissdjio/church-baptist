@@ -25,13 +25,6 @@ const PageBanner = (props) => {
   return (
     <div className={"page-banner "+className} style={style}>
       <Helmet>
-        <meta property="og:image" content={`http://saintfieldbaptist.org.uk${props.imageUrl}`}/>
-        <meta itemprop="thumbnailUrl" content={`http://saintfieldbaptist.org.uk${props.imageUrl}`}/>
-        <link rel="image_src" href={`http://saintfieldbaptist.org.uk${props.imageUrl}`} />
-        <meta itemprop="image" content={`http://saintfieldbaptist.org.uk${props.imageUrl}`}/>
-        <meta name="twitter:image" content={`http://saintfieldbaptist.org.uk${props.imageUrl}`}/>
-        <meta property="og:title" content={props.title}/>
-        <meta name="twitter:title" content={props.title}/>
       </Helmet>
       <div className="row">
         <div className="col align-self-center">

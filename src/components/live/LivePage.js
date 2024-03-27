@@ -24,7 +24,7 @@ const LivePage = (props) => {
         tabIndex="-1"
         width="100%"
         height="100%"
-        src="https://embed.sermonaudio.com/player/l/saintfieldbaptist/?autoplay=true"
+        src='https://www.youtube.com/embed/_4BIPvemF_k?si=saY7y2hYKin6ATTh'
         style={iFrameStyle}
         allowFullScreen
         frameborder="0"

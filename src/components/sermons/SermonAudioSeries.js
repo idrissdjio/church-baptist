@@ -18,7 +18,7 @@ const SermonAudioSeries = ({
     boxSizing: "border-box"
   }
 
-  let url = "https://embed.sermonaudio.com/browser/broadcaster/saintfieldbaptist/series/"
+  let url = ""
 
   url += encodeURIComponent(title) + "/";
   url += `?sort=${sort}&`

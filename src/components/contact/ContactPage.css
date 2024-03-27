@@ -34,3 +34,16 @@
   border: none;
   border-radius: 4px;
 }
+.call-pastor-btn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #0C2D57;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+

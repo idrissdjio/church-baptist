@@ -54,18 +54,20 @@ const AboutPage = () => {
         </PageSection>
 
         <PageSection
-          linkTitle="What We Believe"
-          bannerImageUrl="/img/what_we_believe.png"
+          linkTitle="Sunday Schedule"
+          bannerTitle=" "
+          bannerImageUrl="/img/schedule.png"
           url="/about/what-we-believe"
           bannerMobilePosition="center"
         >
           <WhatWeBelieveSection />
-          <WhatWeBelieveSectionMore />
+          {/* <WhatWeBelieveSectionMore /> */}
         </PageSection>
 
         <PageSection
-          linkTitle="What's On"
-          bannerImageUrl="/img/about_us.jpg"
+          linkTitle="Weekly Services"
+          bannerTitle=" "
+          bannerImageUrl="/img/weekly.png"
           url="/about/whats-on"
           bannerMobilePosition="center"
         >

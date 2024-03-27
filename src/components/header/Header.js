@@ -66,12 +66,12 @@ class Header extends React.Component {
 
             </li>
             <li className="nav-item">
-              <NavLink to="/contact" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Contacts</NavLink>
-              {/* <NavLink to="/giving" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Contacts</NavLink> */}
-
+              {/* <NavLink to="/word-for-the-way" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Word for the way</NavLink> */}
+              <NavLink to="/live" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Watch Live</NavLink>
             </li>
             <li className="nav-item">
-              {/* <NavLink to="/word-for-the-way" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Word for the way</NavLink> */}
+              <NavLink to="/contact" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Contacts</NavLink>
+              {/* <NavLink to="/giving" className="nav-link" activeClassName="active" onClick={this.navLinkClick}>Contacts</NavLink> */}
             </li>
           </ul>
         </div>
