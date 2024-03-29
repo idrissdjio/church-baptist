@@ -28,7 +28,6 @@ class WordForTheWeekPage extends React.Component {
       <Page>
         <PageBanner title={this.state.title} imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="white"/>
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
-
           <PageSection
             linkTitle="The Radio Program"
             bannerImageUrl="/img/word-for-the-week/comfort.jpg"
