@@ -28,8 +28,6 @@ const SermonsPage = (props) => {
       <div>
       <iframe width="50%" height="200" src="https://clyp.it/bhcctodr/widget" frameborder="0"></iframe>
       <iframe width="50%" height="200" src="https://clyp.it/4rkjosp1/widget" frameborder="0"></iframe>
-      <iframe width="50%" height="200" src="https://clyp.it/nnzpj213/widget" frameborder="0"></iframe>
-      <iframe width="50%" height="200" src="https://clyp.it/cfcnulrv/widget" frameborder="0"></iframe>
       </div>
       <form onSubmit={handleSubmit} className="sermons-form">
         <h2>Message Us Here!</h2>

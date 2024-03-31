@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import Page from '../page/Page';
 import Map from '../map/Map';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './ContactPage.css';
 
 const ContactPage = (props) => {
@@ -11,15 +14,45 @@ const ContactPage = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
+
+    const formData = {
+      to_name: 'Church Office',
+      from_name: name,
+      from_email: email,
+      phone: phone,
+      message: message
+    };
+
+    const serviceId = 'service_pwgqc2r';
+    const templateId = 'template_c7llmfj';
+    const userId = 'inEC8F9jEosvthHqj';
+
+    emailjs.send(serviceId, templateId, formData, userId)
+      .then(response => {
+        toast.success('Your message has been sent successfully! The pastor has received your email and will get back to you as soon as possible.');
+      })
+      .catch(err => {
+        toast.error('Failed to send message, please try again later.');
+      });
   };
 
   return (
     <Page>
-      <Map fullWidth={true}/>
+      <ToastContainer />
       <div className="contact-page">
+        <Map fullWidth={true}/>
+        {/* <a 
+          href="https://maps.google.com/?q=2409+E+Park+Place,+Milwaukee,+WI+53211" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="directions-btn" 
+          style={{ display: 'block', margin: '0 auto', backgroundColor: '#0C2D57', color: '#FFFFFF', padding: '10px 15px', textDecoration: 'none', borderRadius: '5px' }}
+        >
+          Get Directions
+        </a> */}
         <br/>
         <a href="tel:+14143643779" className="call-pastor-btn">Call the Pastor</a>
+        <a href="tel:+14143643779" className="call-pastor-btn">Call for a Ride</a>
         <form onSubmit={handleSubmit} className="contact-form">
           <h2 style={{ color: '#0C2D57' }}>Contact Us</h2>
           <div className="form-group">

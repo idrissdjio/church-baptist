@@ -42,3 +42,10 @@
 .what-to-expect-button:focus {
   box-shadow: none;
 }
+
+.radio-study-info {
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}

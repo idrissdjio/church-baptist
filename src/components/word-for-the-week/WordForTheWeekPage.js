@@ -7,6 +7,9 @@ import OurBurdenBearer from './OurBurdenBearer';
 import WhereIsGod from './WhereIsGod';
 import TheComfortingCareOfGod from './TheComfortingCareOfGod';
 import './WordForTheWeek.css'
+import './SermonsPage'
+import SermonsPage from './SermonsPage';
+import LivePage from './LivePage';
 
 class WordForTheWeekPage extends React.Component {
 
@@ -29,11 +32,11 @@ class WordForTheWeekPage extends React.Component {
         <PageBanner title={this.state.title} imageUrl={this.state.currentBannerImage} bannerMobilePosition={this.state.bannerMobilePosition} titleColour="white"/>
         <PageSidebar onSectionChange={this.handleSectionChange} currentSection={this.state.currentSection}>
           <PageSection
-            linkTitle="The Radio Program"
-            bannerImageUrl="/img/word-for-the-week/comfort.jpg"
+            linkTitle="Radio Program"
+            bannerImageUrl="/img/image.png"
             url="/word-for-the-way/"
             bannerMobilePosition="center">
-            <TheComfortingCareOfGod/>
+            <SermonsPage/>
           </PageSection>
 
           <PageSection
@@ -41,7 +44,7 @@ class WordForTheWeekPage extends React.Component {
             bannerImageUrl="/img/word-for-the-week/where.jpg"
             url="/word-for-the-way/where-is-god"
             bannerMobilePosition="center">
-            <WhereIsGod/>
+            <LivePage/>
           </PageSection>
 
           <PageSection
