@@ -1,0 +1,19 @@
+ Install react-pdf
+Install react-pdf to render PDF files. You'll also need pdfjs-dist, which react-pdf relies on:
+
+type the command below in your terminal after navigating to the project's src folder.
+
+npm install @react-pdf/renderer pdfjs-dist
+
+In your project, create a new file for the PDF viewer component, e.g.,
+ PDFViewer.js. This component will use react-pdf to display the PDF
+
+Using Your PDF Viewer Component
+Now, use the PDFViewer component in your application's main component (e.g., App.js, index.js or
+ page you want to display the pdf file ). 
+You need to import a PDF file or provide a URL to the PDF you want to display
+
+Documentation and Dependencies Versions
+react-pdf: Visit npm react-pdf for the latest version and documentation.
+pdfjs-dist: Check out npm pdfjs-dist for the current version and documentation.
+This setup creates a scrollable PDF viewer in a vertical rectangular box as requested
