@@ -52,7 +52,8 @@ const ContactPage = (props) => {
         </a> */}
         <br/>
         <a href="tel:+14143643779" className="call-pastor-btn">Call the Pastor</a>
-        <a href="tel:+14143643779" className="call-pastor-btn">Call for a Ride</a>
+        <a href="tel:+14144602875" className="call-pastor-btn">Call for a Ride</a>
+        <a href="tel:+12622340030" className="call-pastor-btn">Call for Shuttle</a>
         <form onSubmit={handleSubmit} className="contact-form">
           <h2 style={{ color: '#0C2D57' }}>Contact Us</h2>
           <div className="form-group">
