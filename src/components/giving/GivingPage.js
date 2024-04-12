@@ -14,7 +14,7 @@ class GivingPage extends React.Component {
   render() {
     return (
       <Page>
-        <PageBanner imageUrl="/img/image.png" titleColour="white" title=" "/>
+        <PageBanner imageUrl="/img/image.png" titleColour="white" title="Donate"/>
         <div className="ml-3 mr-3 pt-4 pb-4">
           <Donate/>
         </div>

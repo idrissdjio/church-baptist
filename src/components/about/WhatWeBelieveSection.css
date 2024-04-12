@@ -1,0 +1,33 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define two columns with equal width */
+    gap: 20px;
+}
+
+.block1,
+.block2{
+
+    background-color: #f4f4f4;
+    border: solid 2px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.block1 h2,
+.block2 h2{
+    text-align: center;
+    text-transform:capitalize;
+}
+
+
+.block1:hover,
+.block2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

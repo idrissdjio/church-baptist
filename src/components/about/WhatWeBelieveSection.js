@@ -1,8 +1,11 @@
 import React from 'react';
+import "../about/WhatWeBelieveSection.css"
+
 
 const SundaySchedule = () => {
   return (
-    <div>
+    <div className='grid'>
+      <div className='block1'>
       <h2>Sunday Schedule</h2>
       <ul>
         <li><strong>Adult Bible Study</strong>: 9:00AM - 9:45AM</li>
@@ -12,7 +15,9 @@ const SundaySchedule = () => {
         <li><strong>Pot Luck Lunch</strong>: 12:30PM - 1:30PM</li>
         <li><strong>Spanish Class</strong>: 1:45PM - 3:30PM</li>
       </ul>
+      </div>
       
+      <div className='block2'>
       <h2>Weekly Activities</h2>
       <ul>
         <li><strong>Ladies Bible Study</strong>: Tuesday 7:00PM - 8:30PM</li>
@@ -20,6 +25,7 @@ const SundaySchedule = () => {
         <li><strong>Bible/Prayer</strong>: Wednesday 7:00PM - 8:30PM</li>
         <li><strong>Bible Program</strong>: Friday 7:00PM - 9:00PM</li>
       </ul>
+      </div>
     </div>
   );
 }

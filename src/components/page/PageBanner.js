@@ -28,7 +28,7 @@ const PageBanner = (props) => {
       </Helmet>
       <div className="row">
         <div className="col align-self-center">
-          <h1>{props.title}</h1>
+          <h1 className='title'>{props.title}</h1>
         </div>
       </div>
     </div>
