@@ -17,11 +17,15 @@ const HomePageMeetingTimes = (props) => {
           <p>Spanish Class: 1:45PM - 3:30PM</p>
           <br />
           <h3>TUESDAY</h3>
+          <p>Jail Bible Study: 3:00PM - 5:00PM</p>
           <p>Ladies Bible Study: 7:00PM - 8:30PM</p>
           <p>UWM Bible Study: 7:00PM - 8:30PM</p>
           <br />
           <h3>WEDNESDAY</h3>
           <p>Bible/Prayer: 7:00PM - 8:30PM</p>
+          <br />
+          <h3>THURSDAY</h3>
+          <p>Milwaukee Secure Detention Facilities (MSDF) Bible Study : 6:00PM - 8:30PM</p>
           <br />
           <h3>FRIDAY</h3>
           <p>Bible Program: 7:00PM - 9:00PM</p>
