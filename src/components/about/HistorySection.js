@@ -7,7 +7,10 @@ const HistorySection = (props) => {
   return (
     <div className="box">
       <h2 className='text'>Message From Pastor</h2>
-      <p>Our journey as a church family has been one of faith, growth, and divine guidance. After seven fruitful years in our first location, where we experienced the joy of a filled auditorium, God led us to our next chapter at 2935 W. Greenfield Avenue. This new chapter involved extensive renovations to create a welcoming space for worship and community, including a new fellowship hall and educational rooms. Our growth continued, prompting us to seek a larger space to accommodate our expanding congregation. In 2009, God guided us to our current home at 3068 S 13th St. Here, we continue our mission, ever reliant on God's provision to complete the work needed for our church to flourish. Our story is one of continual trust in God's plan, reflecting our commitment to serve and grow together as a community in faith.</p>
+      <p>Our desire is to promote the primitive Christianity of the early church. 2nd Corinthians 10:3 warns us not to be corrupted from the simplicity that is in Christ. God has done all the work, we simply are to receive the work that Christ has already completed by faith. This is true of our salvation and of our sanctification. 
+Salvation is by grace alone, through faith alone, in Christ alone. Sanctification is the moment by moment process of being separated from self and from the world unto GOD. 
+</p>
+      <p>Christ’s church is made up of those who have been called out of the world to become GOD’s peculiar possession. We are his and he is ours forever. Our mission is to serve him and please him as he has revealed his will to us in his word. </p>
     </div>
   )
 }
